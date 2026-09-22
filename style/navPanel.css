@@ -1,0 +1,42 @@
+
+/* -------------------*/
+/* ------------------- */
+/* nav  */
+
+.nav_panel {
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.pizza_nav_logo {
+      margin: 20px 0;
+}
+
+.pizza_footer_logo,
+.pizza_nav_logo h1{
+  font-family: var(--font-family);
+    font-size: 34px;
+      color: #e6e6dd;
+margin: 0;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -1.5px;
+}
+
+
+/* ------------------- */
+
+/* адаптация  */
+
+
+@media (max-width: 600px) {
+
+.pizza_footer_logo,
+.pizza_nav_logo h1 {
+  font-size: 30px;
+}
+
+}

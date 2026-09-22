@@ -1,0 +1,152 @@
+
+
+
+/* -------------------*/
+/* -------------------*/
+/* header  */
+.pizza_header {
+  background-color: #FF8A00;
+    height: auto;
+    padding: 50px 0;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 40px 40px;
+}
+
+.pizza_header_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+
+
+
+/* -------------------*/
+/* header left */
+
+.pizza_header_left_img {
+    width: 350px;
+    height: auto;
+}
+
+/* -------------------*/
+/* header right */
+
+
+
+
+.pizza_header_right_txt_title {
+  font-family: var(--font-family);
+font-weight: 800;
+font-size: 50px;
+line-height: 120%;
+color: #fff;
+  max-width: 500px;
+}
+
+.pizza_header_right_txt_title span,
+.pizza_header_right_txt_subtitle span{
+  color: #4A4036;
+}
+.pizza_header_right_txt_subtitle {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+}
+
+
+
+/* ------------------- */
+
+/* адаптация  */
+
+
+@media (max-width: 1024px) {
+.pizza_header_left_img {
+    width: 300px;
+    height: auto;
+}
+
+.pizza_header_right_txt_title {
+    font-weight: 800;
+    font-size: 45px;
+    width: 410px;
+}
+}
+
+
+
+@media (max-width: 790px) {
+
+.pizza_header_right_txt{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.pizza_header_left_img {
+    width: 250px;
+    height: auto;
+}
+
+.pizza_header_right_txt_title {
+        font-size: 38px;
+        width: 100%;
+      
+}
+
+.pizza_header_right_txt_subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+}
+}
+
+
+@media (max-width: 600px) {
+
+
+
+.pizza_header_right_txt_title {
+        font-size: 34px;
+        width: 100%;
+      
+}
+
+.pizza_header_right_txt_subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+}
+}
+
+
+
+@media (max-width: 400px) {
+  
+.pizza_header_left_img {
+    width: 200px;
+    height: auto;
+}
+
+
+.pizza_header_right_txt_title {
+        font-size: 32px;
+        width: 100%;
+      
+}
+
+.pizza_header_right_txt_subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 10px;
+}
+}
+

@@ -1,0 +1,88 @@
+
+/* ------------------- */
+/* ------------------- */
+/* nav pizza menu  */
+
+
+.pizza_menu_nav {
+  margin-top: 40px;
+}
+
+.pizza_menu_nav_main {
+    display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 25px;
+}
+
+.pizza_menu_nav_main button {
+  font-family: var(--font-family);
+  flex-direction: row-reverse;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 8px 14px;
+  width: 121px;
+  height: 40px;
+  background: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.pizza_menu_nav_main span {
+  font-size: 18px;
+  line-height: 1;
+}
+
+
+.pizza_menu_nav_main button.active {
+      background-color: #FF8A00;
+}
+
+
+
+/* ------------------- */
+
+/* адаптация  */
+
+
+
+@media (max-width: 600px) {
+
+
+.pizza_menu_nav {
+  margin-top: 30px;
+}
+
+
+.pizza_menu_nav_main {
+    gap: 20px;
+}
+
+.pizza_menu_nav_main button {
+  font-size: 14px;
+}
+
+.pizza_menu_nav_main span {
+  font-size: 16px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 480px) {
+  
+.pizza_menu_nav_main {
+  flex-wrap: wrap;
+    gap: 12px;
+}
+}
+

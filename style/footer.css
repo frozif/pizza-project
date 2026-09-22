@@ -1,0 +1,93 @@
+
+/* ------------------- */
+/* ------------------- */
+/* footer */
+
+
+
+.pizza_footer {
+  margin-top: 80px;
+}
+
+.pizza_footer_main {
+  padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.pizza_footer_main_left {
+  display: flex;
+  gap: 40px;
+}
+.pizza_footer_logo {
+  color: #FF8A00;
+}
+
+.pizza_footer_main_right {
+      display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pizza_footer_main_left_info,
+.pizza_footer_main_right h2{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+color: #000;
+}
+
+.pizza_footer_main_left_info{
+  font-size: 12px;
+}
+.pizza_footer_main_right_info {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/* ------------------- */
+/* адаптация  */
+
+@media (max-width: 500px) {
+
+ .pizza_footer {
+    margin-top: 40px;
+  }
+
+  .pizza_footer_main {
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .pizza_footer_main_left {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .pizza_footer_main_right {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .pizza_footer_main_left_info,
+  .pizza_footer_main_right h2 {
+    font-size: 18px;
+  }
+
+  .pizza_footer_main_left_info {
+    font-size: 12px;
+  }
+
+  .pizza_footer_main_right_info {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+

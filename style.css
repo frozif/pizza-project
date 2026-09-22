@@ -1,0 +1,39 @@
+/* шрифты  */
+/* font */
+
+:root {
+  --font-family: "Nunito", sans-serif;
+}
+:root{
+  --ink:#2b241d;
+  --muted:#8a7f70;
+  --paper:#faf6f0;
+  --line:#ddd3c4;
+  --flame:#c9542c;
+}
+
+/* -------------------*/
+/* main css */
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.pizza_project {
+  
+}

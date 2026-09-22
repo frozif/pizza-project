@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style/navPanel.css">
+  <link rel="stylesheet" href="/style/header.css">
+  <link rel="stylesheet" href="/style/basketPanel.css">
+  <link rel="stylesheet" href="/style/navPizzaMenu.css">
+  <link rel="stylesheet" href="/style/cardsPanel.css">
+  <link rel="stylesheet" href="/style/footer.css">
+  <link rel="stylesheet" href="/style/panels.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Time</title>
+</head>
+<body>
+  <div class="pizza_project">
+<nav class="nav_panel">
+<div class="container">
+      <div class="pizza_nav_logo">
+  <h1>Pizza Time</h1>
+</div>
+</div>
+</nav>
+<main>
+  <header class="pizza_header">
+<div class="container">
+  <div class="pizza_header_main">
+    <div class="pizza_header_left">
+<img src="img/navImg2.png" class="pizza_header_left_img" alt="header pizza img">
+    </div>
+        <div class="pizza_header_right">
+      <div class="pizza_header_right_txt">
+        <h2 class="pizza_header_right_txt_title">
+время вкусной <span>пиццы!</span> 
+        </h2>
+        <p class="pizza_header_right_txt_subtitle">
+         <span>Пицца</span> для любого настроения
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+<section class="basket_panel">
+  <div class="container">
+    <div class="basket_panel_main">
+    <div class="basket_panel_info">
+       <button class="basket_panel_main_btn" type="button"><img src="/img/icon/ShoppingCart.svg" alt="корзина "></button>
+                 <div class="basket_panel_list">
+<div class="basket_panel_list_up">
+<h2>Корзина</h2>  
+<div class="basket_panel_list_up_count">
+<p>0</p>
+</div>
+
+</div> 
+<div class="basket_panel_list_center">
+</div>  
+<div class="basket_panel_list_down">
+<div class="basket_panel_list_down_totalPrice">
+<p>Итого:</p>
+<p class="basket_totalPrice">0₽</p>
+</div>
+<div class="basket_panel_list_down_btn">
+  <button  type="button">Оформить заказ</button>
+</div>
+</div>
+</div>
+    </div>
+    </div>
+  </div>
+</section>
+<nav class="pizza_menu_nav">
+  <div class="container">
+      <div class="pizza_menu_nav_main">
+    <button class="active" type="button">Пицца <span>🍕</span></button>
+    <button type="button">Напитки <span>🥤</span></button>
+    <button type="button">Соусы <span>🥫</span></button>
+    <button type="button">Комбо <span>🧺</span></button>
+    </div>
+  </div>
+</nav>
+<section class="pizza_cards_panel">
+<div class="container">
+  <div class="pizza_cards_panel_main">
+    <h2 class="pizza_cards_panel_main_title">Пицца</h2>
+    <div class="pizza_cards_panel_Cards pizza_cards_panel_text">
+    <p class="pizza_footer_main_left_info cardsPanelText">Выберите категорию</p>
+    </div>
+  </div>
+</div>
+</section>
+<div class="add_panel">
+</div>
+<div class="order_panel">
+<div class="container">
+<div class="overlay">
+  <div class="order_panel_main">
+  <div class="order_panel_left">
+<img  src="/img/navImg.png" alt="order panel img">
+  </div>
+  <div class="order_panel_right">
+    <div class="order_panel_right_info">
+      <h2>Доставка</h2> 
+               <button class="order_panel_main_close " type="button">×</button>
+    </div>
+    <div class="order_panel_right_contact">
+  <input type="text" name="name" placeholder="Ваше имя">
+  <input type="tel" name="phone" placeholder="Номер телефона">
+    </div>
+        <div class="order_panel_right_orderType">
+<div class="order_panel_right_orderType_type">
+  <input type="radio"  name="orderType" id="pickup">
+<label for="pickup">Самовывоз</label>
+</div>
+<div class="order_panel_right_orderType_type">
+<input type="radio" checked  name="orderType" id="delivery">
+<label for="delivery">Доставка</label>
+</div>
+    </div>
+    <div class="order_panel_right_address">
+      <div class="order_panel_right_address_up">
+   <input type="text" name="address" placeholder="Улица, дом, квартира">
+      </div>
+  <div class="order_panel_right_address_down">
+  <input type="number" name="floor"  placeholder="Этаж">
+  <input type="text" name="intercom" placeholder="Домофон">
+  </div>
+    </div>
+    <div class="order_panel_right_btn">
+    <button  type="button">Оформить</button>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</main>
+<footer class="pizza_footer">
+<div class="container">
+  <div class="pizza_footer_main">
+  <div class="pizza_footer_main_left">
+<h2 class="pizza_footer_logo">Pizza Time</h2>
+    <div class="pizza_footer_main_left_info">
+      <p>Адрес:</p>
+      <p>Email:</p>
+      <p>Телефон:</p>
+    </div>
+  </div>
+       <div class="pizza_footer_main_right">
+      <h2>соцсети</h2>
+      <div class="pizza_footer_main_right_info">
+        <a href="#"><img src="/img/icon/facebookIcon.svg" alt="facebookIcon"></a>
+        <a href="#"><img src="/img/icon/instagramIcon.svg" alt="instagramIcon"></a>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<script type="module" src="index.js"></script>
+  </div>
+</body>
+</html>
+
